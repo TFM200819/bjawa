@@ -419,33 +419,21 @@ const SummarySection = ({ summary, isLatin }) => (
   </section>
 );
 
-const CreditCard = ({ name, role, image }) => (
+const CreditCard = ({ name, role }) => (
   <div className="bg-[#3E2723] p-6 rounded-xl shadow-lg border border-[#5D4037] text-center transform hover:-translate-y-1 transition-transform duration-300 flex flex-col items-center">
-    <div className="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-[#A1887F] bg-[#5D4037] flex items-center justify-center">
-      {image ? (
-        <img 
-          src={image} 
-          alt={name} 
-          className="w-full h-full object-cover" 
-        />
-      ) : (
-        <Users className="w-10 h-10 text-[#F5F5DC]" />
-      )}
-    </div>
     <h3 className="text-[#F5F5DC] font-serif font-bold text-lg mb-1">{name}</h3>
     <p className="text-[#A1887F] text-sm uppercase tracking-wide">{role}</p>
   </div>
 );
 
 const CreditsPage = () => {
-  // 6 Placeholders as requested
   const credits = [
-    { name: "3. Lathifa Hasna ", role: "Contributor", image: "/fotoprofil/3.webp" },
-    { name: "11. Muhammad Haidar Hylmi Zarkasi", role: "Contributor", image: "/fotoprofil/11.webp" },
-    { name: "12. Muhammad Lingga Adira Prakosa", role: "Contributor", image: "/fotoprofil/12.webp" },
-    { name: "20. Radinka Arkananta Reswara", role: "Contributor", image: "/fotoprofil/21.webp" },
-    { name: "35. Yusuf Miftachul Rizki", role: "Contributor", image: "/fotoprofil/35.webp" },
-    { name: "36. Zhidan Ezar", role: "Contributor",image: "/fotoprofil/36.webp" },
+    { name: "3. Lathifa Hasna ", role: "Contributor" },
+    { name: "11. Muhammad Haidar Hylmi Zarkasi", role: "Contributor" },
+    { name: "12. Muhammad Lingga Adira Prakosa", role: "Contributor" },
+    { name: "20. Radinka Arkananta Reswara", role: "Contributor" },
+    { name: "35. Yusuf Miftachul Rizki", role: "Contributor" },
+    { name: "36. Zhidan Ezar", role: "Contributor" },
   ];
 
   return (
@@ -459,12 +447,12 @@ const CreditsPage = () => {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {credits.map((person, idx) => (
-            <CreditCard key={idx} name={person.name} role={person.role} image={person.image} />
+            <CreditCard key={idx} name={person.name} role={person.role} />
           ))}
         </div>
         
         <div className="mt-16 text-center text-[#5D4037] text-sm">
-          <p>&copy; {new Date().getFullYear()} Cukurukuk</p>
+          <p>&copy; {new Date().getFullYear()} Cukurukuk Kukuruyuk</p>
         </div>
       </div>
     </section>
