@@ -28,7 +28,7 @@ const contentData = {
       dances: [
         {
           name: { latin: "1. Tari Gambyong", aksara: "꧇꧑꧇꧉ꦠꦫꦶꦒꦩ꧀ꦧꦾꦺꦴꦁ" },
-          image: "",
+          image: "/gambyong.jpeg",
           desc: {
             latin: "Tari Gambyong punika tarian tradisional saged dipunmanggihaken ing Surakarta lan sakbrayatipun. Asalipun saking seni tayub rakyat, nanging salajengipun dipunmodifikasi déning Keraton Surakarta dados tarian klasik. Gerak tarinya menekaken keluwesan awak, gerakan tangan, lan ekspresi pasuryan ingkang sumringah. Tarian punika nggambaraken rasa bungah lan puji syukur.",
             aksara: "꧋ꦠꦫꦶꦒꦩ꧀ꦧꦾꦺꦴꦁꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦠꦿꦣꦶꦱꦶꦪꦺꦴꦤꦭ꧀ꦱꦒꦺꦣ꧀ꦝꦶꦥꦸꦤ꧀ꦩꦁꦒꦶꦲꦏꦺꦤ꧀ꦆꦁꦱꦸꦫꦏꦂꦠꦭꦤ꧀ꦱꦏ꧀ꦧꦿꦪꦠꦶꦥꦸꦤ꧀꧈ꦄꦱꦭꦶꦥꦸꦤ꧀ꦱꦏꦶꦁꦱꦼꦤꦶꦠꦪꦸꦧ꧀ꦫꦏꦾꦠ꧀‌ꦤꦔꦶꦁꦱꦭꦗꦺꦔꦶꦥꦸꦤ꧀ꦝꦶꦥꦸꦤ꧀ꦩꦺꦴꦣꦶꦥ꦳ꦶꦏꦱꦶꦣꦺꦤꦶꦁꦏꦼꦫꦠꦺꦴꦤ꧀ꦱꦸꦫꦏꦂꦠꦣꦝꦺꦴꦱ꧀ꦠꦫꦶꦪꦤ꧀ꦏ꧀ꦭꦱꦶꦏ꧀꧈ꦒꦼꦫꦏ꧀ꦠꦫꦶꦚꦩꦼꦤꦼꦏꦏꦺꦤ꧀ꦏꦼꦭꦸꦮꦼꦱꦤ꧀ꦄꦮꦏ꧀‌ꦒꦼꦫꦏꦤ꧀ꦠꦔꦤ꧀‌ꦭꦤ꧀ꦌꦏ꧀ꦱ꧀ꦥꦿꦺꦱꦶꦥꦱꦸꦂꦪꦤ꧀ꦆꦁꦏꦁꦱꦸꦩꦿꦶꦔꦃ꧉ꦠꦫꦶꦪꦤ꧀ꦥꦸꦤꦶꦏꦔ꧀ꦒꦩ꧀ꦧꦫꦏꦺꦤ꧀ꦫꦱꦧꦸꦔꦃꦭꦤ꧀ꦥꦸꦗꦶꦱꦾꦸꦏꦸꦂ꧉"
@@ -40,7 +40,7 @@ const contentData = {
         },
         {
           name: { latin: "2. Tari Bondan (Bondan Payung)", aksara: "꧇꧒꧇꧉ꦠꦫꦶꦧꦺꦴꦤ꧀ꦝꦤ꧀(ꦧꦺꦴꦤ꧀ꦝꦤ꧀ꦥꦪꦸꦁ)" },
-          image: "",
+          image: "/bondan_payung.jpeg",
           desc: {
             latin: "Tari Bondan saking Surakarta asring dipunbawakake déning penari putri ingkang nggambaraken katresnanipun ibu marang anak. Penari nyekel boneka bayi lan payung minangka simbol perlindungan. Ing sawetara adegan, penari lumampah ing kendi pecah minangka simbol ketahanan lan ketelitian.",
             aksara: "꧋ꦠꦫꦶꦧꦺꦴꦤ꧀ꦝꦤ꧀ꦱꦏꦶꦁꦱꦸꦫꦏꦂꦠꦄꦱꦿꦶꦁꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦥꦼꦤꦫꦶꦥꦸꦠꦿꦶꦆꦁꦏꦁꦔ꧀ꦒꦩ꧀ꦧꦫꦏꦺꦤ꧀ꦏꦠꦿꦺꦱ꧀ꦤꦤꦶꦥꦸꦤ꧀ꦆꦧꦸꦩꦫꦁꦄꦤꦏ꧀꧈ꦥꦼꦤꦫꦶꦚꦼꦏꦼꦭ꧀ꦧꦺꦴꦤꦺꦏꦧꦪꦶꦭꦤ꧀ꦥꦪꦸꦁꦩꦶꦤꦁꦏꦱꦶꦩ꧀ꦧꦺꦴꦭ꧀ꦥꦼꦂꦭꦶꦤ꧀ꦝꦸꦔꦤ꧀꧈ꦆꦁꦱꦮꦺꦠꦫꦄꦣꦼꦒꦤ꧀‌ꦥꦼꦤꦫꦶꦭꦸꦩꦩ꧀ꦥꦃꦆꦁꦏꦼꦤ꧀ꦝꦶꦥꦼꦕꦃꦩꦶꦤꦁꦏꦱꦶꦩ꧀ꦧꦺꦴꦭ꧀ꦏꦼꦠꦲꦤꦤ꧀ꦭꦤ꧀ꦏꦼꦠꦼꦭꦶꦠꦶꦪꦤ꧀꧈"
@@ -52,7 +52,7 @@ const contentData = {
         },
         {
           name: { latin: "3. Tari Serimpi", aksara: "꧇꧓꧇꧉ꦠꦫꦶꦱꦼꦫꦶꦩ꧀ꦥꦶ" },
-          image: "",
+          image: "/serimpi.jpeg",
           desc: {
             latin: "Serimpi punika tarian keraton Jawa Tengah ingkang alus sanget. Dipunbawakake déning sekawan putri kanthi gerakan simetris, alon, lan harmonis. Serimpi dipunanggep minangka tarian suci ing kraton.",
             aksara: "꧋ꦱꦼꦫꦶꦩ꧀ꦥꦶꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦏꦼꦫꦠꦺꦴꦤ꧀ꦗꦮꦠꦼꦔꦃꦆꦁꦏꦁꦄꦭꦸꦱ꧀ꦱꦔꦺꦠ꧀꧈ꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦱꦼꦏꦮꦤ꧀ꦥꦸꦠꦿꦶꦏꦤ꧀ꦛꦶꦒꦼꦫꦏꦤ꧀ꦱꦶꦩꦺꦠꦿꦶꦱ꧀‌ꦄꦭꦺꦴꦤ꧀‌ꦭꦤ꧀ꦲꦂꦩꦺꦴꦤꦶꦱ꧀꧈ꦱꦼꦫꦶꦩ꧀ꦥꦶꦣꦶꦥꦸꦤꦁꦒꦺꦥ꧀ꦩꦶꦤꦁꦏꦠꦫꦶꦪꦤ꧀ꦱꦸꦕꦶꦆꦁꦏꦿꦠꦺꦴꦤ꧀꧈"
@@ -64,7 +64,7 @@ const contentData = {
         },
         {
           name: { latin: "4. Tari Ebeg (Jaran Kepang Banyumas)", aksara: "꧇꧔꧇꧉ꦠꦫꦶꦄꦼꦧꦼꦒ꧀(ꦗꦫꦤ꧀ꦏꦺꦥꦁꦧꦚꦸꦩꦱ꧀)" },
-          image: "",
+          image: "/epeg.jpeg",
           desc: {
             latin: "Ebeg punika tarian rakyat khas Banyumas. Penari migunakaken jaran kepang saking bambu. Irama gendhing banyumasan ingkang cecek lan rame ndadosaken suasana semangat.",
             aksara: "꧋ꦄꦼꦧꦼꦒ꧀ꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦫꦏꦾꦠ꧀ꦏ꦳ꦱ꧀ꦧꦚꦸꦩꦱ꧀꧈ꦥꦼꦤꦫꦶꦩꦶꦒꦸꦤꦏꦏꦺꦤ꧀ꦗꦫꦤ꧀ꦏꦺꦥꦁꦱꦏꦶꦁꦧꦩ꧀ꦧꦸ꧉ꦆꦫꦩꦒꦼꦤ꧀ꦝꦶꦁꦧꦚꦸꦩꦱꦤ꧀ꦆꦁꦏꦁꦕꦼꦕꦼꦏ꧀ꦭꦤ꧀ꦫꦩꦺꦤ꧀ꦝꦣꦺꦴꦱꦏꦺꦤ꧀ꦱꦸꦮꦱꦤꦱꦼꦩꦔꦠ꧀꧈"
@@ -76,7 +76,7 @@ const contentData = {
         },
         {
           name: { latin: "5. Tari Lengger Banyumasan", aksara: "꧇꧕꧇꧉ꦠꦫꦶꦭꦺꦁꦒꦺꦂꦧꦚꦸꦩꦱꦤ꧀" },
-          image: "",
+          image: "/lengger_banyumasan.jpeg",
           desc: {
             latin: "Lengger dipunbawakake déning wanita enom kanthi busana khas Banyumas. Gerakanipun ceria, luwes, lan ngemot unsur hiburan rakyat.",
             aksara: "꧋ꦭꦺꦁꦒꦺꦂꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦮꦤꦶꦠꦄꦼꦤꦺꦴꦩ꧀ꦏꦤ꧀ꦛꦶꦧꦸꦱꦤꦏ꦳ꦱ꧀ꦧꦚꦸꦩꦱ꧀꧈ꦒꦼꦫꦏꦤꦶꦥꦸꦤ꧀ꦕꦼꦫꦶꦪ꧈ꦭꦸꦮꦼꦱ꧀‌ꦭꦤ꧀ꦔꦼꦩꦺꦴꦠ꧀ꦈꦤ꧀ꦱꦸꦂꦲꦶꦧꦸꦫꦤ꧀ꦫꦏꦾꦠ꧀꧈"
@@ -88,7 +88,7 @@ const contentData = {
         },
         {
           name: { latin: "6. Tari Dolalak (Purworejo)", aksara: "꧇꧖꧇꧉ꦠꦫꦶꦣꦺꦴꦭꦭꦏ꧀(ꦥꦸꦂꦮꦺꦴꦫꦺꦗꦺꦴ)" },
-          image: "",
+          image: "/dolalak.jpeg",
           desc: {
             latin: "Dolalak punika tarian saking Purworejo ingkang wiwitane dipunbawakake déning prajurit lokal. Busana penari ngemu unsur gaya prajurit Walanda.",
             aksara: "꧋ꦣꦺꦴꦭꦭꦏ꧀ꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦱꦏꦶꦁꦥꦸꦂꦮꦺꦴꦫꦺꦗꦺꦴꦆꦁꦏꦁꦮꦶꦮꦶꦠꦤꦺꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦥꦿꦗꦸꦫꦶꦠ꧀ꦭꦺꦴꦏꦭ꧀꧈ꦧꦸꦱꦤꦥꦼꦤꦫꦶꦔꦼꦩꦸꦈꦤ꧀ꦱꦸꦂꦒꦪꦥꦿꦗꦸꦫꦶꦠ꧀ꦮꦭꦤ꧀ꦝ꧉"
@@ -113,7 +113,7 @@ const contentData = {
       dances: [
         {
           name: { latin: "1. Tari Reog Ponorogo", aksara: "꧇꧑꧇꧉ꦠꦫꦶꦫꦺꦪꦺꦴꦒ꧀ꦥꦺꦴꦤꦺꦴꦫꦺꦴꦒꦺꦴ" },
-          image: "",
+          image: "/reog_ponorogo.jpeg",
           desc: {
             latin: "Reog minangka seni pertunjukan paling misuwur saking Ponorogo. Topeng Dadak Merak gadhah bobot ngantos 50 kg nanging saged dipanggul déning penari namung nganggo gigipun. Penari liyanipun kados Warok lan Jathil nyengkuyung suasana magis.",
             aksara: "꧋ꦫꦺꦪꦺꦴꦒ꧀ꦩꦶꦤꦁꦏꦱꦼꦤꦶꦥꦼꦂꦠꦸꦚ꧀ꦗꦸꦏꦤ꧀ꦥꦭꦶꦁꦩꦶꦱꦸꦮꦸꦂꦱꦏꦶꦁꦥꦺꦴꦤꦺꦴꦫꦺꦴꦒꦺꦴ꧉ꦠꦺꦴꦥꦺꦁꦣꦝꦏ꧀ꦩꦼꦫꦏ꧀ꦒꦣꦃꦧꦺꦴꦧꦺꦴꦠ꧀ꦔꦤ꧀ꦠꦺꦴꦱ꧀꧇꧕꧐꧇ꦏ꧀ꦒ꧀ꦤꦔꦶꦁꦱꦒꦺꦣ꧀ꦝꦶꦥꦁꦒꦸꦭ꧀ꦝꦺꦤꦶꦁꦥꦼꦤꦫꦶꦤꦩꦸꦁꦔꦁꦒꦺꦴꦒꦶꦒꦶꦥꦸꦤ꧀꧈ꦥꦼꦤꦫꦶꦭꦶꦪꦤꦶꦥꦸꦤ꧀ꦏꦣꦺꦴꦱ꧀ꦮꦫꦺꦴꦏ꧀ꦭꦤ꧀ꦗꦛꦶꦭ꧀ꦚꦼꦁꦏꦸꦪꦸꦁꦱꦸꦮꦱꦤꦩꦒꦶꦱ꧀꧈"
@@ -125,7 +125,7 @@ const contentData = {
         },
         {
           name: { latin: "2. Tari Remo", aksara: "꧇꧒꧇꧉ꦠꦫꦶꦉꦩꦺꦴ" },
-          image: "",
+          image: "/remo.jpeg",
           desc: {
             latin: "Tarian Remo asale saka Jombang lan Surabaya. Dipunbawakake déning penari lanang kanthi gerakan tegas lan cekatan, migunakaken suara gelang kerincing.",
             aksara: "꧋ꦠꦫꦶꦪꦤ꧀ꦉꦩꦺꦴꦄꦱꦭꦺꦱꦏꦗꦺꦴꦩ꧀ꦧꦁꦭꦤ꧀ꦯꦸꦫꦨꦪ꧉ꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦥꦼꦤꦫꦶꦭꦤꦁꦏꦤ꧀ꦛꦶꦒꦼꦫꦏꦤ꧀ꦠꦼꦒꦱ꧀ꦭꦤ꧀ꦕꦼꦏꦠꦤ꧀‌ꦩꦶꦒꦸꦤꦏꦏꦺꦤ꧀ꦱꦸꦮꦫꦒꦺꦭꦁꦏꦼꦫꦶꦚ꧀ꦕꦶꦁ꧉"
@@ -137,7 +137,7 @@ const contentData = {
         },
         {
           name: { latin: "3. Tari Jaranan Jawa Timur", aksara: "꧇꧓꧇꧉ꦠꦫꦶꦗꦫꦤꦤ꧀ꦗꦮꦠꦶꦩꦸꦂ" },
-          image: "",
+          image: "/jaranan.jpeg",
           desc: {
             latin: "Mirib Jathilan saking Jawa Tengah nanging gaya Jawa Timur langkung cepet, enerjik, lan dramatis. Asring dumados trance nalika pertunjukan.",
             aksara: "꧋ꦩꦶꦫꦶꦧ꧀ꦗꦛꦶꦭꦤ꧀ꦱꦏꦶꦁꦗꦮꦠꦼꦔꦃꦤꦔꦶꦁꦒꦪꦗꦮꦠꦶꦩꦸꦂꦭꦁꦏꦸꦁꦕꦼꦥꦼꦠ꧀‌ꦄꦼꦤꦼꦂꦗꦶꦏ꧀‌ꦭꦤ꧀ꦝꦿꦩꦠꦶꦱ꧀꧈ꦄꦱꦿꦶꦁꦣꦸꦩꦣꦺꦴꦱ꧀ꦠꦿꦚ꧀ꦕꦺꦤꦭꦶꦏꦥꦼꦂꦠꦸꦚ꧀ꦗꦸꦏꦤ꧀꧈"
@@ -148,7 +148,7 @@ const contentData = {
         },
         {
           name: { latin: "4. Tari Gandrung Banyuwangi", aksara: "꧇꧔꧇꧉ꦠꦫꦶꦒꦤ꧀ꦝꦿꦸꦁꦧꦚꦸꦮꦔꦶ" },
-          image: "",
+          image: "/gandrung_banyuwangi.jpeg",
           desc: {
             latin: "Gandrung punika tarian miwah ing Banyuwangi kanthi busana khas Osing. Penari wanita nari kanthi gerak luwes lan ramah, asring dipunginakaken kanggé nyambut tamu.",
             aksara: "꧋ꦒꦤ꧀ꦝꦿꦸꦁꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦩꦶꦮꦃꦆꦁꦧꦚꦸꦮꦔꦶꦏꦤ꧀ꦛꦶꦧꦸꦱꦤꦏ꦳ꦱ꧀ꦎꦱꦶꦁ꧉ꦥꦼꦤꦫꦶꦮꦤꦶꦠꦤꦫꦶꦏꦤ꧀ꦛꦶꦒꦼꦫꦏ꧀ꦭꦸꦮꦼꦱ꧀ꦭꦤ꧀ꦫꦩꦃ꧈ꦄꦱꦿꦶꦁꦣꦶꦥꦸꦔꦶꦤꦏꦏꦺꦤ꧀ꦏꦁꦒꦺꦚꦩ꧀ꦧꦸꦠ꧀ꦠꦩꦸ꧉"
@@ -160,7 +160,7 @@ const contentData = {
         },
         {
           name: { latin: "5. Tari Topeng Malangan", aksara: "꧇꧕꧇꧉ꦠꦫꦶꦠꦺꦴꦥꦺꦁꦩꦭꦔꦤ꧀" },
-          image: "",
+          image: "/topeng_malangan.jpeg",
           desc: {
             latin: "Tari Topeng Malangan punika pertunjukan drama tari sing nyritakake legenda Panji. Penari migunakaken topeng kanthi karakter kados Panji Asmara, Klana Sewandana, lan sanèsipun.",
             aksara: "꧋ꦠꦫꦶꦠꦺꦴꦥꦺꦁꦩꦭꦔꦤ꧀ꦥꦸꦤꦶꦏꦥꦼꦂꦠꦸꦚ꧀ꦗꦸꦏꦤ꧀ꦝꦿꦩꦠꦫꦶꦱꦶꦁꦚꦿꦶꦠꦏꦏꦺꦊꦒꦺꦤ꧀ꦝꦥꦚ꧀ꦗꦶ꧉ꦥꦼꦤꦫꦶꦩꦶꦒꦸꦤꦏꦏꦺꦤ꧀ꦠꦺꦴꦥꦺꦁꦏꦤ꧀ꦛꦶꦏꦫꦏ꧀ꦠꦼꦂꦏꦣꦺꦴꦱ꧀ꦥꦚ꧀ꦗꦶꦄꦱ꧀ꦩꦫ꧈ꦏ꧀ꦭꦤꦱꦼꦮꦤ꧀ꦝꦤ꧈ꦭꦤ꧀ꦱꦤꦺꦱꦶꦥꦸꦤ꧀꧈"
@@ -185,20 +185,19 @@ const contentData = {
       dances: [
         {
           name: { latin: "1. Tari Bedhaya Ketawang", aksara: "꧇꧑꧇꧉ꦠꦫꦶꦧꦼꦣꦪꦏꦼꦠꦮꦁ" },
-          image: "",
+          image: "/bedhaya_ketawang.jpeg",
           desc: {
             latin: "Tari Bedhaya Ketawang minangka tarian paling suci ing Yogyakarta. Dipunbawakake namung nalika penobatan raja. Penari sangang putri nari kanthi gerakan halus, simbolis, lan makili hubungan spiritual antarane raja lan kekuatan gaib.",
             aksara: "꧋ꦠꦫꦶꦧꦼꦣꦪꦏꦼꦠꦮꦁꦩꦶꦤꦁꦏꦠꦫꦶꦪꦤ꧀ꦥꦭꦶꦁꦱꦸꦕꦶꦆꦁꦪꦺꦴꦒꦾꦏꦂꦠ꧉ꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦤꦩꦸꦁꦤꦭꦶꦏꦥꦼꦤꦺꦴꦧꦠꦤ꧀ꦫꦗ꧉ꦥꦼꦤꦫꦶꦱꦔꦁꦥꦸꦠꦿꦶꦤꦫꦶꦏꦤ꧀ꦛꦶꦒꦼꦫꦏꦤ꧀ꦲꦭꦸꦱ꧀‌ꦱꦶꦩ꧀ꦧꦺꦴꦭꦶꦱ꧀‌ꦭꦤ꧀ꦩꦏꦶꦭꦶꦲꦸꦧꦸꦔꦤ꧀ꦱ꧀ꦥꦶꦫꦶꦠꦸꦮꦭ꧀ꦄꦤ꧀ꦠꦫꦤꦺꦫꦗꦭꦤ꧀ꦏꦼꦏꦸꦮꦠꦤ꧀ꦒꦆꦧ꧀꧈"
           },
           meanings: [
-          image: "",
             { latin: "Kesucèn lan kekuasaan raja.", aksara: "•ꦏꦺꦱꦸꦕꦺꦤ꧀ꦭꦤ꧀ꦏꦼꦏꦸꦮꦱꦄꦤ꧀ꦫꦗ꧉" },
             { latin: "Simbol keharmonisan jagad raya.", aksara: "꧋•ꦱꦶꦩ꧀ꦧꦺꦴꦭ꧀ꦏꦼꦲꦂꦩꦺꦴꦤꦶꦱꦤ꧀ꦗꦒꦣ꧀ꦫꦪ꧉" }
           ]
         },
         {
           name: { latin: "2. Tari Beksan Wireng", aksara: "꧇꧒꧇꧉ꦠꦫꦶꦧꦼꦏ꧀ꦱꦤ꧀ꦮꦶꦫꦺꦁ" },
-          image: "",
+          image: "/beksan_wireng.jpeg",
           desc: {
             latin: "Wireng punika tarian keprajuritan ingkang dipunbawakake déning kalih penari. Kados latihan perang kanthi pedhang lan perisai. Gerakipun teratur, tegas, lan sakral.",
             aksara: "꧋ꦮꦶꦫꦺꦁꦥꦸꦤꦶꦏꦠꦫꦶꦪꦤ꧀ꦏꦼꦥꦿꦗꦸꦫꦶꦠꦤ꧀ꦆꦁꦏꦁꦣꦶꦥꦸꦤ꧀ꦧꦮꦏꦏꦺꦣꦺꦤꦶꦁꦏꦭꦶꦃꦥꦼꦤꦫꦶ꧉ꦏꦣꦺꦴꦱ꧀ꦭꦠꦶꦲꦤ꧀ꦥꦼꦫꦁꦏꦤ꧀ꦛꦶꦥꦼꦣꦁꦭꦤ꧀ꦥꦼꦫꦶꦱꦻ꧉ꦒꦼꦫꦏꦶꦥꦸꦤ꧀ꦠꦼꦫꦠꦸꦂ꧈ꦠꦼꦒꦱ꧀‌ꦭꦤ꧀ꦱꦏꦿꦭ꧀꧈"
@@ -210,7 +209,7 @@ const contentData = {
         },
         {
           name: { latin: "3. Tari Golek Ayun-Ayun", aksara: "꧇꧓꧇꧉ꦠꦫꦶꦒꦺꦴꦭꦺꦏ꧀ꦄꦪꦸꦤ꧀ꦄꦪꦸꦤ꧀" },
-          image: "",
+          image: "/golek_ayun_ayun2.jpeg",
           desc: {
             latin: "Tarian punika nggambaraken para prawan enom ingkang lagi sinau tata krama. Penari nari kanthi ayunan tangan alus lan pasuryan sumringah.",
             aksara: "꧋ꦠꦫꦶꦪꦤ꧀ꦥꦸꦤꦶꦏꦔ꧀ꦒꦩ꧀ꦧꦫꦏꦺꦤ꧀ꦥꦫꦥꦿꦮꦤ꧀ꦄꦼꦤꦺꦴꦩ꧀ꦆꦁꦏꦁꦭꦒꦶꦱꦶꦤꦻꦴꦠꦠꦏꦿꦩ꧉ꦥꦼꦤꦫꦶꦤꦫꦶꦏꦤ꧀ꦛꦶꦄꦪꦸꦤꦤ꧀ꦠꦔꦤ꧀ꦄꦭꦸꦱ꧀ꦭꦤ꧀ꦥꦱꦸꦂꦪꦤ꧀ꦱꦸꦩꦿꦶꦔꦃ꧉"
@@ -222,7 +221,7 @@ const contentData = {
         },
         {
           name: { latin: "4. Tari Serimpi Ludira", aksara: "꧇꧔꧇꧉ꦠꦫꦶꦱꦼꦫꦶꦩ꧀ꦥꦶꦭꦸꦣꦶꦫ" },
-          image: "",
+          image: "/srimpi_ludiramadu.jpeg",
           desc: {
             latin: "Serimpi versi Yogyakarta gadhah gerak langkung alus lan filosofis. Ludira tegesipun “darah”, nggambaraken pengorbanan lan perjuangan.",
             aksara: "꧋ꦱꦼꦫꦶꦩ꧀ꦥꦶꦮ꦳ꦺꦂꦱꦶꦪꦺꦴꦒꦾꦏꦂꦠꦒꦣꦃꦒꦼꦫꦏ꧀ꦭꦁꦏꦸꦁꦄꦭꦸꦱ꧀ꦭꦤ꧀ꦥ꦳ꦶꦭꦺꦴꦱꦺꦴꦥ꦳ꦶꦱ꧀꧈ꦭꦸꦣꦶꦫꦠꦼꦒꦼꦱꦶꦥꦸꦤ꧀“ꦣꦫꦃ”꧈ꦔ꧀ꦒꦩ꧀ꦧꦫꦏꦺꦤ꧀ꦥꦼꦔꦺꦴꦂꦧꦤꦤ꧀ꦭꦤ꧀ꦥꦼꦂꦗꦸꦮꦔꦤ꧀꧈"
@@ -234,7 +233,7 @@ const contentData = {
         },
         {
           name: { latin: "5. Tari Wayang Wong Yogyakarta", aksara: "꧇꧕꧇꧉ꦠꦫꦶꦮꦪꦁꦮꦺꦴꦁꦪꦺꦴꦒꦾꦏꦂꦠ" },
-          image: "",
+          image: "/wayang_wong.jpeg",
           desc: {
             latin: "Tari drama adhedhasar Ramayana lan Mahabharata. Saben tokoh gadhah gerakan khas: alus, gagah, kasar, utawa lucu.",
             aksara: "꧋ꦠꦫꦶꦣꦿꦩꦄꦣꦺꦣꦱꦂꦫꦩꦪꦤꦭꦤ꧀ꦩꦲꦧ꧀ꦲꦫꦠ꧉ꦱꦧꦼꦤ꧀ꦠꦺꦴꦏꦺꦴꦃꦒꦣꦃꦒꦼꦫꦏꦤ꧀ꦏ꦳ꦱ꧀꧇ꦄꦭꦸꦱ꧀‌ꦒꦒꦃ꧈ꦏꦱꦂ꧈ꦈꦠꦮꦭꦸꦕꦸ꧉"
@@ -246,7 +245,7 @@ const contentData = {
         },
         {
           name: { latin: "6. Tari Angguk Kulon Progo", aksara: "꧇꧖꧇꧉ꦠꦫꦶꦄꦁꦒꦸꦏ꧀ꦏꦸꦭꦺꦴꦤ꧀ꦥꦿꦒ" },
-          image: "",
+          image: "/angguk.jpeg",
           desc: {
             latin: "Tari khas putri mawi busana prajurit lan gerakan kepalanya 'ngangguk' ritmis. Asalipun saking kesenian shalawat.",
             aksara: "꧋ꦠꦫꦶꦏ꦳ꦱ꧀ꦥꦸꦠꦿꦶꦩꦮꦶꦧꦸꦱꦤꦥꦿꦗꦸꦫꦶꦠ꧀ꦭꦤ꧀ꦒꦼꦫꦏꦤ꧀ꦏꦼꦥꦭꦚ\"ꦔꦁꦒꦸꦏ꧀\"ꦫꦶꦠ꧀ꦩꦶꦱ꧀꧈ꦄꦱꦭꦶꦥꦸꦤ꧀ꦱꦏꦶꦁꦏꦼꦱꦼꦤꦶꦪꦤ꧀ꦱ꧀ꦲꦭꦮꦠ꧀꧈"
